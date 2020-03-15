@@ -23,5 +23,5 @@ $ code vscode-extensions.list | xargs -L 1 code --install-extension
 $ code vscode-extensions.list | % { "code --install-extension $_" }
 ```
 
-
+![Screen](https://raw.githubusercontent.com/vmontanheiro/vscode-settings/master/vscode.png)
 
