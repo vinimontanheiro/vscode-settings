@@ -1,0 +1,90 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "window.openFilesInNewWindow": "on",
+  "workbench.editor.enablePreview": false,
+  "extensions.ignoreRecommendations": false,
+  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "all",
+  "editor.codeLens": true,
+  "workbench.activityBar.visible": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/node_modules/**": true,
+  },
+  "files.watcherExclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/node_modules/**": true,
+  },
+  "search.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/node_modules/**": true,
+ },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vsicons.dontShowNewVersionMessage": true,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "prettier.semi": false,
+  "debug.node.autoAttach": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.autoSaveDelay": 5000,
+  "files.autoSave": "afterDelay",
+  "dart.openDevTools": "flutter",
+  "todo-tree.tree.showScanModeButton": false,
+	"debug.openDebug": "openOnDebugBreak",
+
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false,
+    "files.insertFinalNewline": true,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+  },
+  "workbench.colorCustomizations": {
+    "[Dark Sea]": {
+      "activityBarBadge.background": "#86db75",
+      "activityBarBadge.foreground": "#222222",
+      "activityBar.activeBorder": "#7b64ce",
+      "activityBar.activeFocusBorder": "#7b64ce",
+      "activityBar.inactiveForeground": "#7b64ce",
+      "activityBar.border": "#282828",
+      "activityBar.foreground": "#76ce64",
+      "statusBar.debuggingBackground": "#fc9803",
+      "statusBar.debuggingForeground": "#FFFFFF",
+      "symbolIcon.structForeground": "#FFDFFF"
+    },
+},
+"editor.tokenColorCustomizations": {
+  "[Dark Sea]": {
+    "comments": "#777777",
+    "types": "#00d9ff",
+    "keywords": "#a187e9",
+    "functions": "#b0f8a9",
+    "variables": "#59cbee"
+  }
+},
+"workbench.colorTheme": "Dark Sea",
+}
