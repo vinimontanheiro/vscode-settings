@@ -15,12 +15,12 @@ $ code settings.json // Copy to your user settings.json
 ## UNIX:
 
 ```
-$ code vscode-extensions.list | xargs -L 1 code --install-extension
+$ code extensions.list | xargs -L 1 code --install-extension
 ```
 
 ## Windows (PowerShell, e. g. using VSCode's integrated Terminal):
 ```
-$ code vscode-extensions.list | % { "code --install-extension $_" }
+$ code extensions.list | % { "code --install-extension $_" }
 ```
 
 ![Screen](https://raw.githubusercontent.com/vmontanheiro/vscode-settings/master/vscode.png)
