@@ -15,7 +15,7 @@ $ code settings.json // Copy to your user settings.json
 ## UNIX:
 
 ```
-$ code extensions.list | xargs -L 1 code --install-extension
+$ cat extensions.list | xargs -L 1 code --install-extension
 ```
 
 ## Windows (PowerShell, e. g. using VSCode's integrated Terminal):
